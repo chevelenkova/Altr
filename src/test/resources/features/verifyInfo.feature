@@ -1,4 +1,3 @@
-
 Feature: Verify info stored correctly to DB
 
   Background: Establish DB connection
@@ -14,8 +13,8 @@ Feature: Verify info stored correctly to DB
     When Execute query to get all columns
     Then verify the below columns are listed in result
       | characterId |
-      | firstName  |
-      | lastName   |
+      | firstName   |
+      | lastName    |
       | occupation  |
-      | age        |
+      | age         |
 
